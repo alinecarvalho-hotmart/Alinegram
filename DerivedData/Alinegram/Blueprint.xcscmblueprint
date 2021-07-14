@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "52EE7B8119E80F031D975C113AC5D66D2AFAA9EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "52EE7B8119E80F031D975C113AC5D66D2AFAA9EE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2AC1AA46-16D6-44FC-930E-3DB6FB8E2045",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "52EE7B8119E80F031D975C113AC5D66D2AFAA9EE" : "Treinando\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Alinegram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Alinegram\/Alinegram.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:alinecarvalho-hotmart\/treinando.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52EE7B8119E80F031D975C113AC5D66D2AFAA9EE"
+    }
+  ]
+}

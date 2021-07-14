@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>82CD3451-CE51-41D6-9FE9-A0C343557748</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>82CD3451-CE51-41D6-9FE9-A0C343557748.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>647974369.82698905</real>
+			<key>timeStoppedRecording</key>
+			<real>647974371.98929906</real>
+			<key>title</key>
+			<string>Build Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>82CD3451-CE51-41D6-9FE9-A0C343557748</string>
+		</dict>
+		<key>DA27FC05-5B22-4D17-B468-726689CD7153</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA27FC05-5B22-4D17-B468-726689CD7153.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>647974433.22529805</real>
+			<key>timeStoppedRecording</key>
+			<real>647974433.53784001</real>
+			<key>title</key>
+			<string>Build Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>DA27FC05-5B22-4D17-B468-726689CD7153</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

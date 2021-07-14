@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117F50C8F13CD0B4FBAFB2FA /* Pods_Alinegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E1150115C62CD40733056E /* Pods_Alinegram.framework */; };
+		63E5F351269F365C008A12A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F350269F365C008A12A8 /* AppDelegate.swift */; };
+		63E5F353269F365C008A12A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F352269F365C008A12A8 /* SceneDelegate.swift */; };
+		63E5F355269F365C008A12A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F354269F365C008A12A8 /* ViewController.swift */; };
+		63E5F358269F365C008A12A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E5F356269F365C008A12A8 /* Main.storyboard */; };
+		63E5F35A269F365E008A12A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E5F359269F365E008A12A8 /* Assets.xcassets */; };
+		63E5F35D269F365E008A12A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E5F35B269F365E008A12A8 /* LaunchScreen.storyboard */; };
+		63E5F365269F3748008A12A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E5F364269F3748008A12A8 /* GoogleService-Info.plist */; };
+		63E5F373269F387F008A12A8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E5F372269F387F008A12A8 /* Login.storyboard */; };
+		63E5F375269F38CE008A12A8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F374269F38CE008A12A8 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DDAF9BDA93FC6FE8828BCE5 /* Pods-Alinegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alinegram.release.xcconfig"; path = "Target Support Files/Pods-Alinegram/Pods-Alinegram.release.xcconfig"; sourceTree = "<group>"; };
+		2324312290020029BF46DC38 /* Pods-Alinegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alinegram.debug.xcconfig"; path = "Target Support Files/Pods-Alinegram/Pods-Alinegram.debug.xcconfig"; sourceTree = "<group>"; };
+		63E5F34D269F365C008A12A8 /* Alinegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alinegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E5F350269F365C008A12A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E5F352269F365C008A12A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63E5F354269F365C008A12A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E5F357269F365C008A12A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E5F359269F365E008A12A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E5F35C269F365E008A12A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E5F35E269F365E008A12A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E5F364269F3748008A12A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		63E5F372269F387F008A12A8 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		63E5F374269F38CE008A12A8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3E1150115C62CD40733056E /* Pods_Alinegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alinegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E5F34A269F365C008A12A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117F50C8F13CD0B4FBAFB2FA /* Pods_Alinegram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115ADD5343FE4EBCD7B24681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2324312290020029BF46DC38 /* Pods-Alinegram.debug.xcconfig */,
+				0DDAF9BDA93FC6FE8828BCE5 /* Pods-Alinegram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63E5F344269F365C008A12A8 = {
+			isa = PBXGroup;
+			children = (
+				63E5F34F269F365C008A12A8 /* Alinegram */,
+				63E5F34E269F365C008A12A8 /* Products */,
+				115ADD5343FE4EBCD7B24681 /* Pods */,
+				6774C8FCA8BED292E3360612 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63E5F34E269F365C008A12A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E5F34D269F365C008A12A8 /* Alinegram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E5F34F269F365C008A12A8 /* Alinegram */ = {
+			isa = PBXGroup;
+			children = (
+				63E5F350269F365C008A12A8 /* AppDelegate.swift */,
+				63E5F352269F365C008A12A8 /* SceneDelegate.swift */,
+				63E5F371269F37EF008A12A8 /* Services */,
+				63E5F370269F37E9008A12A8 /* Models */,
+				63E5F36E269F37D0008A12A8 /* Controllers */,
+				63E5F36D269F37CA008A12A8 /* Views */,
+				63E5F36C269F37C3008A12A8 /* Helpers */,
+				63E5F36A269F37AC008A12A8 /* Storyboards */,
+				63E5F369269F379E008A12A8 /* Extensions */,
+				63E5F368269F378D008A12A8 /* Supporting */,
+				63E5F359269F365E008A12A8 /* Assets.xcassets */,
+			);
+			path = Alinegram;
+			sourceTree = "<group>";
+		};
+		63E5F368269F378D008A12A8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				63E5F35E269F365E008A12A8 /* Info.plist */,
+				63E5F364269F3748008A12A8 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		63E5F369269F379E008A12A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63E5F36A269F37AC008A12A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				63E5F35B269F365E008A12A8 /* LaunchScreen.storyboard */,
+				63E5F356269F365C008A12A8 /* Main.storyboard */,
+				63E5F372269F387F008A12A8 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		63E5F36C269F37C3008A12A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		63E5F36D269F37CA008A12A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63E5F354269F365C008A12A8 /* ViewController.swift */,
+				63E5F374269F38CE008A12A8 /* LoginViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63E5F36E269F37D0008A12A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		63E5F370269F37E9008A12A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63E5F371269F37EF008A12A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6774C8FCA8BED292E3360612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E1150115C62CD40733056E /* Pods_Alinegram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E5F34C269F365C008A12A8 /* Alinegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E5F361269F365E008A12A8 /* Build configuration list for PBXNativeTarget "Alinegram" */;
+			buildPhases = (
+				C5218AEB7A00EC6AB57FDEED /* [CP] Check Pods Manifest.lock */,
+				63E5F349269F365C008A12A8 /* Sources */,
+				63E5F34A269F365C008A12A8 /* Frameworks */,
+				63E5F34B269F365C008A12A8 /* Resources */,
+				45FBEE250D16AA23F2E22ABF /* [CP] Embed Pods Frameworks */,
+				3AE1CAF75D4BC556B69A5B48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alinegram;
+			productName = Alinegram;
+			productReference = 63E5F34D269F365C008A12A8 /* Alinegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E5F345269F365C008A12A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					63E5F34C269F365C008A12A8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 63E5F348269F365C008A12A8 /* Build configuration list for PBXProject "Alinegram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E5F344269F365C008A12A8;
+			productRefGroup = 63E5F34E269F365C008A12A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E5F34C269F365C008A12A8 /* Alinegram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E5F34B269F365C008A12A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E5F35D269F365E008A12A8 /* LaunchScreen.storyboard in Resources */,
+				63E5F365269F3748008A12A8 /* GoogleService-Info.plist in Resources */,
+				63E5F35A269F365E008A12A8 /* Assets.xcassets in Resources */,
+				63E5F373269F387F008A12A8 /* Login.storyboard in Resources */,
+				63E5F358269F365C008A12A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE1CAF75D4BC556B69A5B48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45FBEE250D16AA23F2E22ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alinegram/Pods-Alinegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5218AEB7A00EC6AB57FDEED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alinegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E5F349269F365C008A12A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E5F375269F38CE008A12A8 /* LoginViewController.swift in Sources */,
+				63E5F355269F365C008A12A8 /* ViewController.swift in Sources */,
+				63E5F351269F365C008A12A8 /* AppDelegate.swift in Sources */,
+				63E5F353269F365C008A12A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E5F356269F365C008A12A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E5F357269F365C008A12A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E5F35B269F365E008A12A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E5F35C269F365E008A12A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E5F35F269F365E008A12A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63E5F360269F365E008A12A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E5F362269F365E008A12A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2324312290020029BF46DC38 /* Pods-Alinegram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8PXMHGW4;
+				INFOPLIST_FILE = "$(SRCROOT)/Alinegram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aline.Alinegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E5F363269F365E008A12A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDAF9BDA93FC6FE8828BCE5 /* Pods-Alinegram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8PXMHGW4;
+				INFOPLIST_FILE = "$(SRCROOT)/Alinegram/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aline.Alinegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E5F348269F365C008A12A8 /* Build configuration list for PBXProject "Alinegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E5F35F269F365E008A12A8 /* Debug */,
+				63E5F360269F365E008A12A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E5F361269F365E008A12A8 /* Build configuration list for PBXNativeTarget "Alinegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E5F362269F365E008A12A8 /* Debug */,
+				63E5F363269F365E008A12A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E5F345269F365C008A12A8 /* Project object */;
+}
