@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		117F50C8F13CD0B4FBAFB2FA /* Pods_Alinegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E1150115C62CD40733056E /* Pods_Alinegram.framework */; };
+		63A01A7326A1D5AD00FBEA4F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A01A7226A1D5AD00FBEA4F /* User.swift */; };
+		63A01A7526A1D76D00FBEA4F /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A01A7426A1D76D00FBEA4F /* CreateUsernameViewController.swift */; };
 		63E5F351269F365C008A12A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F350269F365C008A12A8 /* AppDelegate.swift */; };
 		63E5F353269F365C008A12A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F352269F365C008A12A8 /* SceneDelegate.swift */; };
 		63E5F355269F365C008A12A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5F354269F365C008A12A8 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		0DDAF9BDA93FC6FE8828BCE5 /* Pods-Alinegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alinegram.release.xcconfig"; path = "Target Support Files/Pods-Alinegram/Pods-Alinegram.release.xcconfig"; sourceTree = "<group>"; };
 		2324312290020029BF46DC38 /* Pods-Alinegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alinegram.debug.xcconfig"; path = "Target Support Files/Pods-Alinegram/Pods-Alinegram.debug.xcconfig"; sourceTree = "<group>"; };
+		63A01A7226A1D5AD00FBEA4F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		63A01A7426A1D76D00FBEA4F /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		63E5F34D269F365C008A12A8 /* Alinegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alinegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E5F350269F365C008A12A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E5F352269F365C008A12A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			children = (
 				63E5F354269F365C008A12A8 /* ViewController.swift */,
 				63E5F374269F38CE008A12A8 /* LoginViewController.swift */,
+				63A01A7426A1D76D00FBEA4F /* CreateUsernameViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 		63E5F370269F37E9008A12A8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				63A01A7226A1D5AD00FBEA4F /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 			files = (
 				63E5F375269F38CE008A12A8 /* LoginViewController.swift in Sources */,
 				63E5F355269F365C008A12A8 /* ViewController.swift in Sources */,
+				63A01A7526A1D76D00FBEA4F /* CreateUsernameViewController.swift in Sources */,
 				63E5F351269F365C008A12A8 /* AppDelegate.swift in Sources */,
+				63A01A7326A1D5AD00FBEA4F /* User.swift in Sources */,
 				63E5F353269F365C008A12A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

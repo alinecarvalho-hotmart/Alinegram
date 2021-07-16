@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0DD5A0E7-98E0-4F42-AAFD-9A9E0D5BF810</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0DD5A0E7-98E0-4F42-AAFD-9A9E0D5BF810.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648154791.09187806</real>
+			<key>timeStoppedRecording</key>
+			<real>648154913.52933502</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>0DD5A0E7-98E0-4F42-AAFD-9A9E0D5BF810</string>
+		</dict>
 		<key>136261F6-6594-426B-9A79-B3C71D4D7E81</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,380 @@
 			<string>Run Alinegram</string>
 			<key>uniqueIdentifier</key>
 			<string>136261F6-6594-426B-9A79-B3C71D4D7E81</string>
+		</dict>
+		<key>16F4C715-F5D7-4140-95AE-47389242D5F6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>16F4C715-F5D7-4140-95AE-47389242D5F6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648151513.24293303</real>
+			<key>timeStoppedRecording</key>
+			<real>648151595.97745705</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>16F4C715-F5D7-4140-95AE-47389242D5F6</string>
+		</dict>
+		<key>3C3C9C43-BBAC-4797-973E-2A0CE8F27FEF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3C3C9C43-BBAC-4797-973E-2A0CE8F27FEF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648139973.94678795</real>
+			<key>timeStoppedRecording</key>
+			<real>648140129.87798095</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>3C3C9C43-BBAC-4797-973E-2A0CE8F27FEF</string>
+		</dict>
+		<key>58748F2F-DAE1-4D99-A98E-B17AE0DE208F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>58748F2F-DAE1-4D99-A98E-B17AE0DE208F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648139769.48859298</real>
+			<key>timeStoppedRecording</key>
+			<real>648139863.69618106</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>58748F2F-DAE1-4D99-A98E-B17AE0DE208F</string>
+		</dict>
+		<key>6869AD5D-35CF-43BA-AAA5-3EA4F9C5B9F5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6869AD5D-35CF-43BA-AAA5-3EA4F9C5B9F5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648139878.98762</real>
+			<key>timeStoppedRecording</key>
+			<real>648139971.18045402</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>6869AD5D-35CF-43BA-AAA5-3EA4F9C5B9F5</string>
+		</dict>
+		<key>7F428971-EAC0-4357-B36A-2DAF03398023</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7F428971-EAC0-4357-B36A-2DAF03398023.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648147561.80336702</real>
+			<key>timeStoppedRecording</key>
+			<real>648147973.91305006</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>7F428971-EAC0-4357-B36A-2DAF03398023</string>
+		</dict>
+		<key>92AB196C-0F9B-4604-8DC2-35C85C674972</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>92AB196C-0F9B-4604-8DC2-35C85C674972.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648152163.78914106</real>
+			<key>timeStoppedRecording</key>
+			<real>648152282.176723</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>92AB196C-0F9B-4604-8DC2-35C85C674972</string>
+		</dict>
+		<key>A79E59D4-D00A-4618-BFF5-604F71F4188F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A79E59D4-D00A-4618-BFF5-604F71F4188F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648154551.51770794</real>
+			<key>timeStoppedRecording</key>
+			<real>648154560.56148696</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>A79E59D4-D00A-4618-BFF5-604F71F4188F</string>
+		</dict>
+		<key>A8376EC8-F92F-4CE3-840C-2AC5C2344D8C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A8376EC8-F92F-4CE3-840C-2AC5C2344D8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648148291.99330497</real>
+			<key>timeStoppedRecording</key>
+			<real>648148336.12591195</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>A8376EC8-F92F-4CE3-840C-2AC5C2344D8C</string>
+		</dict>
+		<key>D074D1A1-FD48-4AC6-95E6-77192FEDAFE3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D074D1A1-FD48-4AC6-95E6-77192FEDAFE3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648148348.70244503</real>
+			<key>timeStoppedRecording</key>
+			<real>648148418.61038995</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>D074D1A1-FD48-4AC6-95E6-77192FEDAFE3</string>
+		</dict>
+		<key>E669EE6E-72C9-494E-8BBE-335AE3F28FAE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E669EE6E-72C9-494E-8BBE-335AE3F28FAE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648154563.53134799</real>
+			<key>timeStoppedRecording</key>
+			<real>648154767.43798602</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>E669EE6E-72C9-494E-8BBE-335AE3F28FAE</string>
+		</dict>
+		<key>F5B161F5-740C-484E-97C5-F7CEA74AACFC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F5B161F5-740C-484E-97C5-F7CEA74AACFC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Alinegram project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Alinegram</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Alinegram</string>
+			<key>timeStartedRecording</key>
+			<real>648152025.069947</real>
+			<key>timeStoppedRecording</key>
+			<real>648152156.53706396</real>
+			<key>title</key>
+			<string>Run Alinegram</string>
+			<key>uniqueIdentifier</key>
+			<string>F5B161F5-740C-484E-97C5-F7CEA74AACFC</string>
 		</dict>
 	</dict>
 </dict>

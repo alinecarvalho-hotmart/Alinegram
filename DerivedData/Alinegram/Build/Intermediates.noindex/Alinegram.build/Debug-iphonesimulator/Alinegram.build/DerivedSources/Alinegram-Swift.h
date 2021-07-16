@@ -222,10 +222,22 @@ SWIFT_CLASS("_TtC9Alinegram11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
 @class UIButton;
 @class NSString;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC9Alinegram28CreateUsernameViewController")
+@interface CreateUsernameViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameTextField;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified nextButton;
+- (void)viewDidLoad;
+- (IBAction)nextButtonTapped:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9Alinegram19LoginViewController")
 @interface LoginViewController : UIViewController

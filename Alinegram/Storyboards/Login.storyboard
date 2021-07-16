@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BpU-b6-a3j">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -71,11 +71,100 @@
                             <constraint firstItem="bBd-ob-RTE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ix5-Rz-1CS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="nDL-ve-GJc"/>
                     <connections>
                         <outlet property="loginButton" destination="mzY-w4-EqN" id="oKY-2H-cHy"/>
+                        <segue destination="3jY-tJ-TQD" kind="show" identifier="toCreateUsername" id="H3n-PK-82e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="93"/>
+        </scene>
+        <!--Create Username View Controller-->
+        <scene sceneID="tWR-NW-cRI">
+            <objects>
+                <viewController id="3jY-tJ-TQD" customClass="CreateUsernameViewController" customModule="Alinegram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XR3-6G-uY0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="V9Z-FM-MtN">
+                                <rect key="frame" x="30" y="80" width="325" height="260.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEw-nK-yK4">
+                                        <rect key="frame" x="59.666666666666686" y="0.0" width="206" height="24"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a username so your friends can find you. You can change this later." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbo-Gw-lve">
+                                        <rect key="frame" x="7" y="60" width="311" height="40.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6qe-Ip-0fO">
+                                        <rect key="frame" x="0.0" y="136.66666666666666" width="325" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="WiW-TW-S8J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWf-1T-g96">
+                                        <rect key="frame" x="0.0" y="216.66666666666669" width="325" height="44"/>
+                                        <color key="backgroundColor" red="0.2434046617" green="0.61800039600000001" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="ULv-5i-Mxw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="nextButtonTapped:" destination="3jY-tJ-TQD" eventType="touchUpInside" id="dkh-2x-Cvy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6qe-Ip-0fO" secondAttribute="trailing" id="51a-bz-Mef"/>
+                                    <constraint firstItem="6qe-Ip-0fO" firstAttribute="leading" secondItem="V9Z-FM-MtN" secondAttribute="leading" id="Etb-T2-WiE"/>
+                                    <constraint firstAttribute="trailing" secondItem="mWf-1T-g96" secondAttribute="trailing" id="kex-AR-ply"/>
+                                    <constraint firstItem="mWf-1T-g96" firstAttribute="leading" secondItem="V9Z-FM-MtN" secondAttribute="leading" id="vJD-TG-etd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P8a-Q8-RkI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V9Z-FM-MtN" firstAttribute="top" secondItem="P8a-Q8-RkI" secondAttribute="top" constant="36.000000000000028" id="XKH-Ta-Cf7"/>
+                            <constraint firstAttribute="trailing" secondItem="V9Z-FM-MtN" secondAttribute="trailing" constant="20" id="esK-ao-wXI"/>
+                            <constraint firstItem="V9Z-FM-MtN" firstAttribute="leading" secondItem="XR3-6G-uY0" secondAttribute="leading" constant="30" id="m2f-x7-8Db"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9sw-LZ-f0p"/>
+                    <connections>
+                        <outlet property="nextButton" destination="mWf-1T-g96" id="a5p-v4-zYI"/>
+                        <outlet property="usernameTextField" destination="6qe-Ip-0fO" id="QD3-sQ-dtU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xa2-4m-DKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1700" y="92.364532019704441"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bVZ-bs-3J4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="BpU-b6-a3j" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gpE-0M-xkc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="jgk-2B-iCf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cH-gd-I6t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-5.5999999999999996" y="93.103448275862078"/>
         </scene>
@@ -84,6 +173,9 @@
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

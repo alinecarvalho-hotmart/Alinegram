@@ -6,27 +6,27 @@
 	<dict>
 		<key>FUIAccountSettingsViewController.nib</key>
 		<data>
-		0G3ArrayDQUAhzk8VMiZuEqZ1b0=
+		GNu+5htrhYfGKsB0r2/x0wqJciY=
 		</data>
 		<key>FUIAuthPickerViewController.nib</key>
 		<data>
-		6vZccyax5SaTtATCKzTs0aX7axg=
+		0ZGMx2V2Nd23jZJVsdKfj+8ZRB4=
 		</data>
 		<key>FUIAuthTableViewCell.nib</key>
 		<data>
-		zlgO9JJACeDa3IfjBZBRolRuFTM=
+		w2z03kWX52tl5sadEMIcfpFvy7c=
 		</data>
 		<key>FUIInputTableViewCell.nib</key>
 		<data>
-		Xp/tzgPYbF845vNffKS3L3kD3DI=
+		1H1WwplW2l4SsRDRTA/JZimavG8=
 		</data>
 		<key>FUIPasswordTableViewCell.nib</key>
 		<data>
-		fzh4iVH16FJqEiSPodfSswF7nG8=
+		xJ1JKhMp6oOmead+SwHOdVsa2Pg=
 		</data>
 		<key>FUIStaticContentTableViewController.nib</key>
 		<data>
-		udMhkqs5FmgmFOEAJ6zgxFyBCfk=
+		SgB1CNeisUrQDwEZeRDapPIAOjQ=
 		</data>
 		<key>ar.lproj/FirebaseAuthUI.strings</key>
 		<dict>
@@ -827,66 +827,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0G3ArrayDQUAhzk8VMiZuEqZ1b0=
+			GNu+5htrhYfGKsB0r2/x0wqJciY=
 			</data>
 			<key>hash2</key>
 			<data>
-			OGyLNMhixfJaoB/jLWHS3J1P+GV3f7ByR75SxruVBqY=
+			5R1TpsE0AhosP+xoBIkmoRBsXo19k8pHXBodw28L4X0=
 			</data>
 		</dict>
 		<key>FUIAuthPickerViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6vZccyax5SaTtATCKzTs0aX7axg=
+			0ZGMx2V2Nd23jZJVsdKfj+8ZRB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+fkjhWR7i+TU/z2Nn+GpxWf9IBdNs89CwYkABoXdV08=
+			HVHut7O4tLSwpfVWy8svFZVEBN5ONKBUiCbbfszvsgs=
 			</data>
 		</dict>
 		<key>FUIAuthTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zlgO9JJACeDa3IfjBZBRolRuFTM=
+			w2z03kWX52tl5sadEMIcfpFvy7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			DARZ1HofsY8jSNIEdK4uy6/zFmnA1b/ahgmYPFmiA4A=
+			lPozaGlqPgi1Vn+Yv5+ykKp2jUVWuuZVTeIu3cZpP5s=
 			</data>
 		</dict>
 		<key>FUIInputTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xp/tzgPYbF845vNffKS3L3kD3DI=
+			1H1WwplW2l4SsRDRTA/JZimavG8=
 			</data>
 			<key>hash2</key>
 			<data>
-			asPKb1WNwWuEhJBEn/2qg1GOR8AfsijyOH84zdk7S3w=
+			yIgrvek097y0dztBUi4sDxljcc6Zb2lgQZ30WthFwck=
 			</data>
 		</dict>
 		<key>FUIPasswordTableViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fzh4iVH16FJqEiSPodfSswF7nG8=
+			xJ1JKhMp6oOmead+SwHOdVsa2Pg=
 			</data>
 			<key>hash2</key>
 			<data>
-			WuR6lb5W09U/MciPgwPzu3uIcnnrRmOg+Awq2w+VMOo=
+			iQeslNYgEhZwIT0+HISadFc5kXlEnta6znLss2HmlHE=
 			</data>
 		</dict>
 		<key>FUIStaticContentTableViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			udMhkqs5FmgmFOEAJ6zgxFyBCfk=
+			SgB1CNeisUrQDwEZeRDapPIAOjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			vlqWG6z7I3AUfwlRJPbSd6YSXhejZyAnebZae352WrY=
+			t1OASyuod2f9I1T8R4DwsWbW0FEDeoEQlcst0BPF1mE=
 			</data>
 		</dict>
 		<key>ar.lproj/FirebaseAuthUI.strings</key>

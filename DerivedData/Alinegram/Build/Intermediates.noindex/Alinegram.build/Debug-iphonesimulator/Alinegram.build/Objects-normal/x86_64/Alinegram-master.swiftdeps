@@ -1,8 +1,10 @@
 version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
 options: "144883b6ff2d759a1e6dc8a10da7c0e7"
-build_time: [1626281570, 330475000]
+build_time: [1626461989, 407898000]
 inputs:
-  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/LoginViewController.swift": [1626281569, 814600251]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/LoginViewController.swift": [1626459222, 783834935]
   "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/ViewController.swift": [1626275548, 990788926]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/CreateUsernameViewController.swift": [1626461989, 25229974]
   "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/AppDelegate.swift": [1626276721, 41698519]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Models/User.swift": [1626461749, 650352235]
   "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/SceneDelegate.swift": [1626277340, 764386088]

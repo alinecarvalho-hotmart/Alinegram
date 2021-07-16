@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "0341b2de87f31c399d01d19372344036"
+build_time: [1626439359, 154364000]
+inputs:
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/LoginViewController.swift": [1626286643, 499212332]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/Views/ViewController.swift": [1626275548, 990788926]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/AppDelegate.swift": [1626276721, 41698519]
+  "/Users/aline.carvalho/Documents/Treinando/Alinegram/Alinegram/SceneDelegate.swift": [1626277340, 764386088]

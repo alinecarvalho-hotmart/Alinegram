@@ -8,6 +8,9 @@
 import UIKit
 import FirebaseAuth
 import FirebaseUI
+import FirebaseDatabase
+
+typealias FIRUser = FirebaseAuth.User
 
 class LoginViewController: UIViewController {
     
@@ -44,6 +47,19 @@ class LoginViewController: UIViewController {
 
 extension LoginViewController: FUIAuthDelegate {
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-        print("handle user signup / login")
+//        if let error = error {
+//            assertionFailure("Error signing in: \(error.localizedDescription)")
+//            return
+//        }
+
+//        guard let user = authDataResult?.user else { return }
+        
+        if authDataResult?.additionalUserInfo?.isNewUser == true {
+            performSegue(withIdentifier: "toCreateUsername", sender: self)
+        } else {
+            print("NO")
+        }
+
     }
 }
+
